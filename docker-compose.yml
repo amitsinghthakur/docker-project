@@ -1,0 +1,5 @@
+jbpm-server:
+  image: jboss/jbpm-workbench-showcase
+  restart: always
+  ports:
+    - 8080:8080  
